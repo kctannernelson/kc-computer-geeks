@@ -3,129 +3,204 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="KC Computer Geeks provides computer repair, upgrades, cybersecurity-focused support, network setup, and custom PC builds in Kansas City." />
-  <title>KC Computer Geeks | Repair. Build. Protect.</title>
+  <meta name="description" content="KC Computer Geeks provides computer repair, upgrades, cleaning, data transfer, and custom PC builds in the Kansas City area." />
+  <title>KC Computer Geeks | PC Repair & Custom Builds</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Russo+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header class="site-header">
     <div class="container nav-wrap">
       <a class="brand" href="#home" aria-label="KC Computer Geeks home">
-        <span class="round-logo"><span class="round-logo-k">K</span><span class="round-logo-c">C</span><small>COMPUTER<br><b>GEEKS</b></small></span>
+        <span class="brand-mark">KC</span>
+        <span>Computer Geeks</span>
       </a>
       <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
       <nav class="nav" aria-label="Primary navigation">
-        <a class="active" href="#home">Home</a>
         <a href="#services">Services</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#builds">Custom Builds</a>
         <a href="#about">About</a>
-        <a href="#contact">Contact</a>
-        <a href="#contact" class="nav-cta">Get a Quote <span>›</span></a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact" class="nav-cta">Free Estimate</a>
       </nav>
     </div>
   </header>
 
   <main>
     <section class="hero" id="home">
-      <div class="hero-city" aria-hidden="true">
-        <span style="--h:34%;--x:3%"></span><span style="--h:58%;--x:10%"></span><span style="--h:42%;--x:17%"></span>
-        <span style="--h:72%;--x:25%"></span><span style="--h:48%;--x:33%"></span><span style="--h:82%;--x:41%"></span>
-        <span style="--h:55%;--x:50%"></span><span style="--h:69%;--x:59%"></span><span style="--h:44%;--x:68%"></span>
-        <span style="--h:76%;--x:77%"></span><span style="--h:51%;--x:86%"></span><span style="--h:64%;--x:94%"></span>
-      </div>
       <div class="container hero-grid">
-        <div class="hero-copy-wrap">
-          <div class="hero-brand-lockup">
-            <div class="circuit-stem" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
-            <div class="hero-kc"><span>K</span><b>C</b></div>
-            <div class="hero-wordmark"><strong>COMPUTER</strong><b>GEEKS</b></div>
-          </div>
-          <div class="brand-rule"></div>
-          <div class="tagline">REPAIR<span>.</span> BUILD<span>.</span> PROTECT<span>.</span></div>
-          <p class="hero-copy">Reliable computer repair, custom builds, and IT solutions in Kansas City.<br><span>Local service. Geek pride.</span></p>
+        <div>
+          <div class="eyebrow">Kansas City Computer Repair</div>
+          <h1>Computer problems?<br><span>We’ve got you covered.</span></h1>
+          <p class="hero-copy">PC repair, upgrades, cleanup, data transfer, and custom gaming or workstation builds with straightforward pricing and local service.</p>
           <div class="hero-actions">
-            <a class="btn btn-primary" href="#services">Our Services <span>›</span></a>
-            <a class="btn btn-secondary" href="#contact">Get a Quote</a>
+            <a class="btn btn-primary" href="#contact">Get a Free Estimate</a>
+            <a class="btn btn-secondary" href="#services">View Services</a>
           </div>
-          <div class="location-line"><span class="pin-icon">●</span><div><strong>KANSAS CITY, MO</strong><small>LOCAL SERVICE. GEEK PRIDE.</small></div></div>
+          <div class="trust-row">
+            <span>✓ Local service</span>
+            <span>✓ Honest pricing</span>
+            <span>✓ Custom PC builds</span>
+          </div>
         </div>
-
-        <div class="hero-pc-scene" aria-hidden="true">
-          <div class="pc-shadow"></div>
-          <div class="pc-case">
-            <div class="case-top"></div>
-            <div class="case-glass">
-              <div class="top-fans"><span></span><span></span><span></span></div>
-              <div class="rear-fan"></div>
-              <div class="cooler-ring"><span>KC</span></div>
-              <div class="ram-sticks"><i></i><i></i></div>
-              <div class="gpu-bar">GEFORCE RTX</div>
-              <div class="cable cable-one"></div><div class="cable cable-two"></div>
+        <div class="hero-card" aria-hidden="true">
+          <div class="pc-window">
+            <div class="pc-top"><span></span><span></span><span></span></div>
+            <div class="pc-body">
+              <div class="glow-ring"></div>
+              <div class="spec-card spec-one">Diagnostics<br><strong>Fast answers</strong></div>
+              <div class="spec-card spec-two">Custom Builds<br><strong>Built for you</strong></div>
+              <div class="spec-card spec-three">Upgrades<br><strong>More performance</strong></div>
             </div>
-            <div class="front-panel"><span></span><span></span><span></span></div>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="services section" id="services">
+    <section class="section" id="services">
       <div class="container">
-        <div class="section-title centered">
-          <span>WHAT WE DO</span>
-          <h2>OUR SERVICES</h2>
+        <div class="section-head">
+          <div>
+            <div class="eyebrow">What We Do</div>
+            <h2>Computer help without the runaround.</h2>
+          </div>
+          <p>From a slow PC to a full gaming build, KC Computer Geeks can help diagnose the issue and recommend the right next step.</p>
         </div>
-        <div class="service-grid">
-          <article class="service-card">
-            <div class="service-icon"><svg viewBox="0 0 64 64" aria-hidden="true"><rect x="9" y="13" width="46" height="32" rx="3"/><path d="M22 53h20M32 45v8M39 18l7 7-14 14-8 1 1-8z"/></svg></div>
-            <h3>PC Repair</h3><h4>& Troubleshooting</h4><p>Diagnostics, repairs, and troubleshooting for hardware and software issues.</p>
-          </article>
-          <article class="service-card">
-            <div class="service-icon"><svg viewBox="0 0 64 64" aria-hidden="true"><rect x="16" y="16" width="32" height="32" rx="5"/><rect x="23" y="23" width="18" height="18" rx="3"/><path d="M20 8v8M30 8v8M40 8v8M20 48v8M30 48v8M40 48v8M8 20h8M8 30h8M8 40h8M48 20h8M48 30h8M48 40h8"/></svg></div>
-            <h3>Upgrades</h3><h4>& Optimization</h4><p>SSD installations, RAM upgrades, storage, GPUs, cooling, and performance tuning.</p>
-          </article>
-          <article class="service-card">
-            <div class="service-icon"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M19 23c-7 0-11 5-12 14-1 8 1 14 5 14 3 0 6-5 9-9h22c3 4 6 9 9 9 4 0 6-6 5-14-1-9-5-14-12-14z"/><path d="M22 31v10M17 36h10M43 32h.1M49 38h.1"/></svg></div>
-            <h3>Custom Builds</h3><h4>Gaming PCs</h4><p>Custom-built gaming and workstation PCs tailored to your needs and budget.</p>
-          </article>
-          <article class="service-card">
-            <div class="service-icon"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M32 7l20 8v14c0 13-8 22-20 28C20 51 12 42 12 29V15z"/><rect x="25" y="28" width="14" height="12" rx="2"/><path d="M28 28v-4a4 4 0 018 0v4"/></svg></div>
-            <h3>Cybersecurity</h3><h4>& Malware Removal</h4><p>Virus and malware removal, system cleanup, security checks, and safer setup.</p>
-          </article>
-          <article class="service-card">
-            <div class="service-icon"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M9 25c13-13 33-13 46 0M17 34c9-9 21-9 30 0M25 43c4-4 10-4 14 0"/><circle cx="32" cy="51" r="2"/></svg></div>
-            <h3>Network Setup</h3><h4>& Support</h4><p>Home network setup, Wi-Fi troubleshooting, optimization, and basic support.</p>
-          </article>
+        <div class="card-grid">
+          <article class="service-card"><div class="icon">🔎</div><h3>PC Diagnostics</h3><p>Figure out why your PC will not boot, crashes, freezes, runs slowly, or acts unpredictably.</p><strong>Free with repair</strong></article>
+          <article class="service-card"><div class="icon">🛡️</div><h3>Virus & Malware Removal</h3><p>Clean up unwanted software, suspicious popups, browser hijackers, and common malware issues.</p><strong>Starting at $50</strong></article>
+          <article class="service-card"><div class="icon">🪟</div><h3>Windows Setup</h3><p>Fresh Windows installation, initial setup, updates, drivers, and basic configuration.</p><strong>Starting at $60</strong></article>
+          <article class="service-card"><div class="icon">⚡</div><h3>PC Tune-Up</h3><p>Performance cleanup, startup optimization, software maintenance, and system checks.</p><strong>Starting at $40</strong></article>
+          <article class="service-card"><div class="icon">🧩</div><h3>Hardware Installation</h3><p>RAM, SSDs, GPUs, fans, power supplies, storage drives, and other compatible upgrades.</p><strong>Starting at $30</strong></article>
+          <article class="service-card"><div class="icon">💾</div><h3>Data Transfer</h3><p>Move important files from an old computer or drive to your new system or replacement storage.</p><strong>Starting at $40</strong></article>
+          <article class="service-card"><div class="icon">🧹</div><h3>PC Cleaning</h3><p>Dust removal and basic internal cleaning to help keep temperatures and airflow under control.</p><strong>Starting at $35</strong></article>
+          <article class="service-card"><div class="icon">🖥️</div><h3>Custom PC Builds</h3><p>Gaming, streaming, school, work, or workstation PCs assembled around your budget and needs.</p><strong>$100 build fee + parts</strong></article>
         </div>
       </div>
     </section>
 
-    <section class="about section" id="about">
-      <div class="container owner-grid">
-        <div class="owner-photo-wrap"><img src="assets/tanner-owner.jpg" alt="Tanner Nelson, owner of KC Computer Geeks" class="owner-photo"></div>
-        <div class="owner-copy">
-          <span class="eyebrow">ABOUT THE OWNER</span>
-          <h2>TANNER NELSON</h2>
-          <div class="owner-rule"></div>
-          <p>I'm Tanner, the owner of KC Computer Geeks. I've always had a passion for technology and solving problems. I'm currently studying cybersecurity, which keeps me focused on IT, security, system health, and reliable setup practices.</p>
-          <p>I started KC Computer Geeks to provide honest, straightforward computer service to my community. Whether it's fixing a slow PC, building a custom gaming rig, or helping secure a system, I treat every computer like it's my own.</p>
-          <div class="owner-points"><span>✓ Cybersecurity Student</span><span>✓ Detail Oriented</span><span>✓ IT & Tech Enthusiast</span><span>✓ Customer Focused</span></div>
-          <a class="btn btn-secondary linkedin-btn" href="https://www.linkedin.com/in/tanner-nelson-759992255/" target="_blank" rel="noopener">View My LinkedIn <b>in</b></a>
+    <section class="section alt" id="pricing">
+      <div class="container">
+        <div class="section-head">
+          <div><div class="eyebrow">Simple Pricing</div><h2>Know the starting price before work begins.</h2></div>
+          <p>Final pricing can vary based on the issue, replacement parts, and the amount of work required. You receive an estimate first.</p>
+        </div>
+        <div class="pricing-table">
+          <div class="price-row"><span>PC Diagnostics</span><strong>FREE with repair / $25 diagnostic only</strong></div>
+          <div class="price-row"><span>Virus & Malware Removal</span><strong>Starting at $50</strong></div>
+          <div class="price-row"><span>Windows Installation & Setup</span><strong>Starting at $60</strong></div>
+          <div class="price-row"><span>PC Tune-Up & Optimization</span><strong>Starting at $40</strong></div>
+          <div class="price-row"><span>Hardware Installation</span><strong>Starting at $30</strong></div>
+          <div class="price-row"><span>Data Transfer & Backup</span><strong>Starting at $40</strong></div>
+          <div class="price-row"><span>Custom Gaming / Workstation Build</span><strong>$100 + parts</strong></div>
+          <div class="price-row"><span>PC Cleaning & Dust Removal</span><strong>Starting at $35</strong></div>
+        </div>
+        <p class="small-note">Windows license and replacement hardware are not included unless specifically quoted.</p>
+      </div>
+    </section>
+
+    <section class="section" id="builds">
+      <div class="container build-grid">
+        <div class="build-panel">
+          <div class="eyebrow">Custom Builds</div>
+          <h2>Build a PC around what you actually need.</h2>
+          <p>Whether you want a gaming PC, streaming setup, workstation, or reliable everyday computer, we can help plan a compatible parts list and assemble the system.</p>
+          <div class="build-tags"><span>Gaming</span><span>Streaming</span><span>Workstation</span><span>School</span><span>Everyday Use</span></div>
+          <a class="btn btn-primary" href="#contact">Start a Build</a>
+        </div>
+        <div class="build-steps">
+          <div><b>01</b><span><strong>Tell us your budget.</strong><small>Give us a target price range and whether you already own any parts.</small></span></div>
+          <div><b>02</b><span><strong>Tell us what you use it for.</strong><small>Games, streaming, school, editing, work applications, or something else.</small></span></div>
+          <div><b>03</b><span><strong>Approve the parts list.</strong><small>We make sure the components fit your goals and are compatible before the build begins.</small></span></div>
+          <div><b>04</b><span><strong>We build and test it.</strong><small>The completed system is assembled, checked, and prepared for pickup or delivery arrangements.</small></span></div>
         </div>
       </div>
     </section>
 
-    <section class="quote-strip" id="contact">
-      <div class="container quote-strip-inner">
-        <div class="quote-badge">💬</div>
-        <div class="quote-copy"><h2>NEED <span>HELP</span> WITH YOUR PC?</h2><p>Get a free estimate today. Fast response. Honest pricing.</p></div>
-        <a class="btn btn-primary quote-button" href="mailto:kccomputergeeks@gmail.com?subject=KC%20Computer%20Geeks%20Estimate%20Request">Get a Free Quote <span>›</span></a>
+    <section class="section alt" id="about">
+      <div class="container about-grid">
+        <div>
+          <div class="eyebrow">About KC Computer Geeks</div>
+          <h2>Local computer service with clear communication.</h2>
+          <p>KC Computer Geeks provides computer repair, upgrades, cleaning, data transfer, and custom PC building for customers in the Kansas City area.</p>
+          <p>The goal is simple: explain the issue, give you an estimate before work starts, and help you make the repair or upgrade decision that makes sense for your computer.</p>
+
+          <div class="eyebrow" style="margin-top: 2rem;">Meet the Owner</div>
+          <h3>Tanner Nelson</h3>
+          <p>KC Computer Geeks is owned and operated by Tanner Nelson, a cybersecurity student with a strong interest in computers, technology, troubleshooting, and hands-on PC work. Tanner started KC Computer Geeks to turn that experience into a local service focused on helping people get more life, performance, and reliability out of their computers.</p>
+          <p>From diagnosing everyday PC problems to upgrading hardware and planning custom gaming or workstation builds, Tanner takes a practical approach: understand what the customer actually needs, explain the options clearly, and recommend a solution that makes sense for the system and budget.</p>
+          <p>That same interest in cybersecurity and IT also shapes the way KC Computer Geeks approaches computer service — with attention to system health, reliability, good setup practices, and clear communication throughout the process.</p>
+          <a class="btn btn-secondary" href="https://www.linkedin.com/in/tanner-nelson-759992255/" target="_blank" rel="noopener" style="margin-top: .5rem;">View Tanner on LinkedIn ↗</a>
+        </div>
+        <div class="feature-stack">
+          <div><span>✓</span><p><strong>Owner-operated</strong><br>Work directly with the person diagnosing, repairing, or building your PC.</p></div>
+          <div><span>✓</span><p><strong>No surprise charges</strong><br>Approve the estimate before repair work begins.</p></div>
+          <div><span>✓</span><p><strong>Local service</strong><br>Serving customers throughout the Kansas City area.</p></div>
+          <div><span>✓</span><p><strong>Built around your needs</strong><br>Repairs and PC builds tailored to how you use your computer.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="faq">
+      <div class="container faq-wrap">
+        <div class="section-head">
+          <div><div class="eyebrow">FAQ</div><h2>Common questions.</h2></div>
+        </div>
+        <details><summary>Do you charge for diagnostics?</summary><p>Diagnostics are free when you move forward with the repair. Diagnostic-only service starts at $25.</p></details>
+        <details><summary>Do you supply replacement parts?</summary><p>Parts can be discussed as part of your estimate. Pricing shown on this site is for labor unless otherwise noted.</p></details>
+        <details><summary>Can you build a PC if I already have some of the parts?</summary><p>Yes. Include the parts you already own in your message so compatibility can be checked before the build begins.</p></details>
+        <details><summary>How much does a custom PC cost?</summary><p>The build labor fee is $100 plus the cost of parts. The total depends on your budget and performance goals.</p></details>
+        <details><summary>How do I get started?</summary><p>Use the form below or email KC Computer Geeks with a short description of the problem or the type of PC you want built.</p></details>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-grid">
+        <div>
+          <div class="eyebrow">Free Estimate</div>
+          <h2>Tell us what you need help with.</h2>
+          <p>Send a few details about your computer problem or custom build. The button below will create an email addressed to KC Computer Geeks.</p>
+          <div class="contact-info">
+            <a href="mailto:kccomputergeeks@gmail.com">kccomputergeeks@gmail.com</a>
+            <a href="https://www.facebook.com/profile.php?id=61590982283876" target="_blank" rel="noopener">Facebook Page ↗</a>
+          </div>
+        </div>
+        <form id="estimateForm" class="contact-form">
+          <label>Name<input id="name" type="text" required placeholder="Your name"></label>
+          <label>Email<input id="email" type="email" required placeholder="you@example.com"></label>
+          <label>Service
+            <select id="service" required>
+              <option value="">Choose a service</option>
+              <option>PC Diagnostics / Repair</option>
+              <option>Virus & Malware Removal</option>
+              <option>Windows Installation & Setup</option>
+              <option>PC Tune-Up</option>
+              <option>Hardware Installation / Upgrade</option>
+              <option>Data Transfer</option>
+              <option>PC Cleaning</option>
+              <option>Custom PC Build</option>
+              <option>Other</option>
+            </select>
+          </label>
+          <label>Computer / Budget<input id="device" type="text" placeholder="Example: gaming desktop / $1,500 budget"></label>
+          <label>What can we help with?<textarea id="message" rows="6" required placeholder="Describe the issue, parts you already own, games/programs you use, or anything else that would help."></textarea></label>
+          <button class="btn btn-primary" type="submit">Create Estimate Email</button>
+          <p class="form-note">No information is stored on this website. Your default email app will open with the form details filled in.</p>
+        </form>
       </div>
     </section>
   </main>
 
-  <footer><div class="container footer-wrap"><span>KC Computer Geeks</span><span>© <span id="year"></span> • Kansas City, MO</span></div></footer>
+  <footer>
+    <div class="container footer-wrap">
+      <div><strong>KC Computer Geeks</strong><span>PC Repair • Upgrades • Custom Builds</span></div>
+      <div>© <span id="year"></span> KC Computer Geeks • Kansas City Area</div>
+    </div>
+  </footer>
+
   <script src="script.js"></script>
 </body>
 </html>
